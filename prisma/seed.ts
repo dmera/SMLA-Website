@@ -50,13 +50,7 @@ async function main() {
     },
   ];
 
-  for (const metric of impactMetrics) {
-    await prisma.impactMetric.upsert({
-      where: { title: metric.title },
-      update: {},
-      create: metric,
-    });
-  }
+  await prisma.impactMetric.createMany({ data: impactMetrics });
 
   console.log('Database seeded successfully!');
   console.log('Admin user created:', adminUser.email);
