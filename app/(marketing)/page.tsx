@@ -1,4 +1,4 @@
-import { HeroSection } from '@/components/hero-section';
+import HeroSection from '@/components/hero-section';
 import { FormatSection } from '@/components/format-section';
 import { ArchitectureSection } from '@/components/architecture-section';
 import { FAQAccordion } from '@/components/faq-accordion';

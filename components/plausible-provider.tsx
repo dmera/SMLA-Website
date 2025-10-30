@@ -21,3 +21,4 @@ export function PlausibleProvider({ children }: PlausibleProviderProps) {
 
   return <>{children}</>;
 }
+

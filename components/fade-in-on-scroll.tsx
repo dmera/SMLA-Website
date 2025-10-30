@@ -36,3 +36,4 @@ export function FadeInOnScroll({
     </motion.div>
   );
 }
+

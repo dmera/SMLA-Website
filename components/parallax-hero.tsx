@@ -27,3 +27,4 @@ export function ParallaxHero({ children, className }: ParallaxHeroProps) {
     </motion.div>
   );
 }
+
