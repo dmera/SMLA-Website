@@ -1,0 +1,204 @@
+{
+  "home": {
+    "hero": {
+      "heading": "Your home in the mountains.",
+      "subheading": "Own a refuge that protects wildlife and generates a regenerative future.",
+      "cta": "Explore ways to inhabit the mountain"
+    },
+    "formats": {
+      "heading": "Two ways to inhabit the mountain.",
+      "subheading": "Choose how you want to be part of this project that cares for and regenerates the Andes.",
+      "option1": {
+        "title": "Co-ownership with returns",
+        "description": "Real property with estimated returns and flexible use.",
+        "bullets": [
+          "Real registered property",
+          "Estimated 8-12% annual returns",
+          "Flexible use throughout the year",
+          "Environmental advisory included"
+        ],
+        "cta": "Discover how it works"
+      },
+      "option2": {
+        "title": "Exclusive property",
+        "description": "Your personal refuge in the mountains.",
+        "bullets": [
+          "Total and exclusive use",
+          "Water and energy advisory",
+          "Regenerative community",
+          "Access to premium services"
+        ],
+        "cta": "Explore the residences"
+      }
+    },
+    "architecture": {
+      "heading": "Sustainable architecture in harmony with the mountain.",
+      "subheading": "Every material tells a story…",
+      "materials": [
+        {
+          "title": "Laminated wood",
+          "bullets": [
+            "From certified forests",
+            "Resistant to humidity",
+            "Natural thermal insulation"
+          ],
+          "description": "We connect with local construction tradition."
+        },
+        {
+          "title": "Basaltic rock from the site",
+          "bullets": [
+            "Responsibly extracted",
+            "Millennial durability",
+            "Landscape integration"
+          ],
+          "description": "The mountain itself becomes part of your home."
+        },
+        {
+          "title": "Regenerative landscaping",
+          "bullets": [
+            "Ecosystem restoration",
+            "Priority native species",
+            "Carbon capture"
+          ],
+          "description": "Every garden is a step towards regeneration."
+        }
+      ]
+    },
+    "place": {
+      "heading": "The magical Andes, in full regeneration.",
+      "subheading": "Between cloud forests and clear skies…"
+    },
+    "faqs": [
+      {
+        "question": "What is co-ownership with returns?",
+        "answer": "It's a form of real property where you share ownership of a refuge and receive income when you don't use it, while contributing to ecosystem conservation."
+      },
+      {
+        "question": "How does the returns system work?",
+        "answer": "Income comes from renting the refuge when you don't use it. We estimate 8-12% annual returns based on sustainable tourism demand in the area."
+      },
+      {
+        "question": "What guarantees do I have as an owner?",
+        "answer": "You have real registered property, guaranteed access to your refuge according to the agreed schedule, and participation in community decisions."
+      },
+      {
+        "question": "How do I contribute to conservation?",
+        "answer": "Each property includes an ecological restoration plan, species monitoring, and regenerative practices that reverse environmental impact."
+      },
+      {
+        "question": "What services are included?",
+        "answer": "Maintenance, cleaning, reservation management, environmental advisory, and access to the regenerative community of owners."
+      }
+    ]
+  },
+  "hotel": {
+    "hero": {
+      "heading": "Don't just visit: be an owner.",
+      "subheading": "Become a co-owner of the boutique hotel. Enjoy the forest whenever you want and generate income the rest of the year.",
+      "cta": "Simulate your investment"
+    },
+    "howItWorks": {
+      "heading": "Your high-altitude investment.",
+      "description": "A unique opportunity to be part of a project that combines profitability with positive environmental impact.",
+      "bullets": [
+        "Real property in the Andes",
+        "Projected 10-15% annual returns",
+        "Measurable conservation impact",
+        "No bureaucracy, with total transparency"
+      ]
+    },
+    "usp": [
+      {
+        "heading": "An investment as solid as the mountain.",
+        "description": "Real registered property in a privileged location with sustainable tourism demand."
+      },
+      {
+        "heading": "Live at altitude, share the essential.",
+        "description": "Guaranteed access to your refuge and participation in a conscious community."
+      },
+      {
+        "heading": "Your refuge, also an income.",
+        "description": "Generate passive income when you don't use your property, with professional management included."
+      },
+      {
+        "heading": "Invest in beauty, conserve life.",
+        "description": "Every investment directly contributes to the restoration and conservation of the Andean ecosystem."
+      }
+    ],
+    "comparison": {
+      "title": "Hotel Co-ownership vs Time Sharing vs Own Home",
+      "rows": [
+        {
+          "feature": "Real property",
+          "hotel": "Yes",
+          "timeshare": "No",
+          "vivienda": "Yes"
+        },
+        {
+          "feature": "Economic returns",
+          "hotel": "10-15% annual",
+          "timeshare": "0%",
+          "vivienda": "Variable"
+        },
+        {
+          "feature": "Usage flexibility",
+          "hotel": "High",
+          "timeshare": "Limited",
+          "vivienda": "Total"
+        },
+        {
+          "feature": "Environmental impact",
+          "hotel": "Positive",
+          "timeshare": "Neutral",
+          "vivienda": "Variable"
+        },
+        {
+          "feature": "Management included",
+          "hotel": "Yes",
+          "timeshare": "Partial",
+          "vivienda": "No"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "What is the expected return on investment?",
+        "answer": "We estimate 10-15% annual returns based on sustainable tourism demand and professional boutique hotel management."
+      },
+      {
+        "question": "How are income distributed?",
+        "answer": "Income is distributed proportionally among co-owners after covering operational costs and reserves for maintenance."
+      },
+      {
+        "question": "What guarantees do I have as a co-owner?",
+        "answer": "You have real registered property, guaranteed access according to the agreed schedule, and participation in hotel decisions."
+      },
+      {
+        "question": "How is the hotel managed?",
+        "answer": "We have a professional team specialized in sustainable tourism that handles operations, marketing, and maintenance."
+      },
+      {
+        "question": "Can I sell my share?",
+        "answer": "Yes, you can sell your share at any time. We help you find buyers within the regenerative community."
+      }
+    ]
+  },
+  "common": {
+    "nav": {
+      "home": "Home",
+      "hotel": "Hotel",
+      "conservation": "Conservation",
+      "contact": "Contact",
+      "cta": "Become a co-owner"
+    },
+    "footer": {
+      "claim": "We build refuges. We regenerate mountains.",
+      "legal": "Terms and conditions",
+      "privacy": "Privacy policy",
+      "social": "Follow us"
+    },
+    "language": {
+      "switch": "Switch language"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 37 149 118;    /* verde #259576 (rgb) */
+    --color-accent: 204 132 82;   /* cobre (más brillante) (rgb) */
+    --color-bg: 244 240 236;      /* beige claro (rgb) */
+    --color-text: 92 92 92;       /* gris piedra (rgb) */
+
+    --radius: 1rem;
+    --shadow-soft: 0 8px 24px rgba(0,0,0,.08);
+
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+
+    /* MUI-like palette tokens (light mode) */
+    /* Primary (maps to --color-primary) */
+    --mui-primary-main: #259576;
+    --mui-primary-light: #3FAB91;
+    --mui-primary-dark: #1D7A64;
+    --mui-primary-contrastText: #FFFFFF;
+
+    /* Secondary/Accent (maps to --color-accent) */
+    --mui-secondary-main: #CC8452;
+    --mui-secondary-light: #E19B6C;
+    --mui-secondary-dark: #A8653B;
+    --mui-secondary-contrastText: #FFFFFF;
+
+    /* Backgrounds */
+    --mui-background-default: #F4F0EC; /* matches --color-bg */
+    --mui-background-paper: #FFFFFF;
+
+    /* Text */
+    --mui-text-primary: #5C5C5C; /* matches --color-text */
+    --mui-text-secondary: #7A7A7A;
+
+    /* Misc */
+    --mui-divider: rgba(0,0,0,0.12);
+    --mui-warning-main: #ED6C02;
+    --mui-error-main: #D32F2F;
+    --mui-success-main: #2E7D32;
+  }
+
+  .dark {
+    --color-primary: 63 171 145;    /* verde #259576 más claro para dark mode (#3FAB91) */
+    --color-accent: 217 154 99;   /* cobre más brillante para dark mode */
+    --color-bg: 20 22 22;
+    --color-text: 230 230 230;
+
+    /* Keep brand hues but improve contrast in dark */
+    /* Using slightly lighter tints for main colors to pop on dark bg */
+    --mui-primary-main: #3FAB91;
+    --mui-primary-light: #4FC4A8;
+    --mui-primary-dark: #259576;
+    --mui-primary-contrastText: #FFFFFF;
+
+      --mui-secondary-main: #D99A63;
+      --mui-secondary-light: #E6B382;
+      --mui-secondary-dark: #B17849;
+    --mui-secondary-contrastText: #0E0F0F;
+
+    --mui-background-default: #141616; /* matches --color-bg */
+    --mui-background-paper: #1B1D1D;
+
+    --mui-text-primary: #E6E6E6; /* matches --color-text */
+    --mui-text-secondary: #BDBDBD;
+
+    --mui-divider: rgba(255,255,255,0.12);
+    --mui-warning-main: #F57C00;
+    --mui-error-main: #EF5350;
+    --mui-success-main: #4CAF50;
+
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
